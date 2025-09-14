@@ -1,7 +1,10 @@
-// App.jsx（在你现有基础上微调）
+
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { useState, useEffect } from "react";
-import Navbar from "./Components/Navbar.jsx";import "./App.css";
+import Navbar from "./Components/Navbar.jsx";
+import Home from "./Components/Home.jsx";
+import About from "./Components/About.jsx";
+import "./App.css";
 
 export default function App() {
   const [theme, setTheme] = useState("light"); 
@@ -28,8 +31,11 @@ export default function App() {
                        bg-white text-zinc-900 dark:bg-zinc-900 dark:text-zinc-100 transition-colors">
          {/* dark is a boollen */}
         <Navbar dark={theme === "dark"} setDark={setDark} />
-        <Routes></Routes>
-        <p>test</p>
+        
+        <Routes> 
+          <Route path="/" element={<Home />}></Route>
+          <Route path="/about" element={<About />} /> 
+        </Routes>
 
       </main>
     </BrowserRouter>

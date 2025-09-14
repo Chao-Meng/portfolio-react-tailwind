@@ -16,7 +16,6 @@ export default function Navbar({ dark, setDark }) {
           className="p-2 rounded-full bg-zinc-200 dark:bg-zinc-700 transition"
           aria-label="Toggle theme"
         >
-      
           {dark ? "☀️" : "🌙"} 
         </button>
       </div>
