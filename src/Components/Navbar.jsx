@@ -1,15 +1,17 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
+
 
 export default function Navbar({ dark, setDark }) {
   return (
     <nav className="sticky top-0 bg-white dark:bg-zinc-800/70 backdrop-blur shadow rounded-xl">
       <div className="mx-auto max-w-6xl px-4 flex items-center justify-between h-12">
-        <div className="font-bold text-lg">Athena</div>
+        <div className="font-bold text-lg">
+          <Link href="/">Athena</Link></div>
         <div className="flex gap-6">
-          <NavLink to="/" end className={({isActive}) => isActive ? "text-blue-600" : "hover:text-blue-600"}>Home</NavLink>
-          <NavLink to="/works" className={({isActive}) => isActive ? "text-blue-600" : "hover:text-blue-600"}>Works</NavLink>
-          <NavLink to="/about" className={({isActive}) => isActive ? "text-blue-600" : "hover:text-blue-600"}>About</NavLink>
-          <NavLink to="/contact" className={({isActive}) => isActive ? "text-blue-600" : "hover:text-blue-600"}>Contact</NavLink>
+          <NavLink to="/" end className={({isActive}) => isActive ? "text-teal-600" : "hover:text-teal-600"}>Home</NavLink>
+          <NavLink to="/experience" className={({isActive}) => isActive ? "text-teal-600" : "hover:text-teal-600"}>Experience</NavLink>
+          <NavLink to="/about" className={({isActive}) => isActive ? "text-teal-600" : "hover:text-teal-600"}>About</NavLink>
+          <NavLink to="/contact" className={({isActive}) => isActive ? "text-teal-600" : "hover:text-teal-600"}>Contact</NavLink>
         </div>
         <button
           onClick={() => setDark(!dark)}
