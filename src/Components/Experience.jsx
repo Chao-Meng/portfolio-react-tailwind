@@ -2,7 +2,6 @@
 export default function Experience(){
     return(
         <>
-        
         <section className="relative mx-auto max-w-6xl  bg-slate-100 dark:bg-slate-900  dark:text-white-600 py-16 grid items-center " >
              <div className="hidden md:block absolute left-1/2 top-0 h-full w-px -translate-x-1/2 border-l-2 border-dashed border-slate-400 z-0" />
             <div className="hidden md:block absolute left-1/2 top-0 h-full w-px -translate-x-1/2 border-l-2 border-dashed border-slate-400 z-0" />

@@ -3,7 +3,7 @@ import { Link, NavLink } from "react-router-dom";
 
 export default function Navbar({ dark, setDark }) {
   return (
-    <nav className="sticky top-0 bg-white dark:bg-zinc-800/70 backdrop-blur shadow rounded-xl">
+    <nav className="sticky top-0 bg-white dark:bg-zinc-800/70 backdrop-blur shadow rounded-xl z-50">
       <div className="mx-auto max-w-6xl px-4 flex items-center justify-between h-12">
         <div className="font-bold text-lg">
           <Link href="/">Athena</Link></div>
