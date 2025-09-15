@@ -1,6 +1,8 @@
 import Hero from "./Hero.jsx";
 import Experience from "./Experience.jsx";
 import Projects from "./Projects.jsx";
+import About from "./About.jsx";
+import Footer from "./Footer.jsx";
 export default function Home(){
 
     return(
@@ -8,6 +10,8 @@ export default function Home(){
         <Hero />
         <Experience />
         <Projects />
+        <About />
+        <Footer />
         </>
     )
 

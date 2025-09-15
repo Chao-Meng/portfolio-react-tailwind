@@ -1,7 +1,9 @@
 export default function Projects(){
 
     return(
-        <section className="overflow-x-auto flex nowrap gap-6 py-10 ">
+        <> 
+        <h2 className="text-3xl font-bold mb-10 text-center pt-16"> My Related Works</h2>
+        <section className="overflow-x-auto flex nowrap gap-6  ">
             <div className="rounded-xl shadow-md w-[40%] shrink-0 bg-white p-4 ">
                 <div className="h-60">
                     <img className="w-full h-full object-cover object-center" src="./sensor-placement.png" alt="sensor-placement" />
@@ -31,5 +33,6 @@ export default function Projects(){
                 <p className="text-sm text-gray-600">Web Application</p>
             </div>
         </section>
+        </>
     )
 }

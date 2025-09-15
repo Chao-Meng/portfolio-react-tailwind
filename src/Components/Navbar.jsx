@@ -12,7 +12,7 @@ export default function Navbar({ dark, setDark }) {
           <NavLink to="/experience" className={({isActive}) => isActive ? "text-teal-600" : "hover:text-teal-600"}>Experience</NavLink>
           <NavLink to="/projects" className={({isActive}) => isActive ? "text-teal-600" : "hover:text-teal-600"}>Projects</NavLink>
           <NavLink to="/about" className={({isActive}) => isActive ? "text-teal-600" : "hover:text-teal-600"}>About</NavLink>
-          <NavLink to="/contact" className={({isActive}) => isActive ? "text-teal-600" : "hover:text-teal-600"}>Contact</NavLink>
+          {/* <NavLink to="/contact" className={({isActive}) => isActive ? "text-teal-600" : "hover:text-teal-600"}>Contact</NavLink> */}
         </div>
         <button
           onClick={() => setDark(!dark)}

@@ -1,6 +1,7 @@
+
 export default function Hero() {
   return (
-    <section className="mx-auto max-w-6xl  py-16 grid items-center gap-10 md:grid-cols-2">
+    <section className="mx-auto max-w-7xl  py-16 grid items-center gap-10 md:grid-cols-2">
       {/* for sub-elements in this div */}
       <div className="space-y-6">
         <p className="text-sm tracking-widest text-teal-600">WELCOME</p>
@@ -22,7 +23,7 @@ export default function Hero() {
             href="mailto:cmeng036@gmail.com"
             className="inline-flex items-center px-4 py-2 rounded-xl border border-zinc-300 dark:border-zinc-600"
           >
-            Contact
+            Hire Me
           </a>
         </div>
       </div>

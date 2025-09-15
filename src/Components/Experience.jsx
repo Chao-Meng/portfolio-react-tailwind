@@ -1,8 +1,9 @@
-
 export default function Experience(){
     return(
         <>
-        <section className="relative mx-auto max-w-6xl  bg-slate-100 dark:bg-slate-900  dark:text-white-600 py-16 grid items-center " >
+         <h2 className="text-3xl font-bold mb-10 text-center pt-16"> My Work Experience</h2>
+        <section className="relative mx-auto max-w-7xl  bg-slate-100 dark:bg-slate-900  dark:text-white-600 grid items-center " >
+           
              <div className="hidden md:block absolute left-1/2 top-0 h-full w-px -translate-x-1/2 border-l-2 border-dashed border-slate-400 z-0" />
             <div className="hidden md:block absolute left-1/2 top-0 h-full w-px -translate-x-1/2 border-l-2 border-dashed border-slate-400 z-0" />
                 <div className="relative grid items-start gap-10 md:grid-cols-2 md:col-span-2 py-2">
@@ -85,9 +86,6 @@ export default function Experience(){
                     </ul>
                 </div>
             </div>  
-
-            
-   
         </section>
         </>
     )
