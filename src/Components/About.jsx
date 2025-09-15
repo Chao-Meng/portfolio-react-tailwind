@@ -8,7 +8,7 @@ export default function About(){
                 <div className="flex flex-col gap-6 shrink-0 mx-auto px-4">
                     <div className="w-28 sm:w-32 md:w-40 lg:w-48 rounded-full overflow-hidden shadow-xl ring-1 ring-black/5
                         bg-white dark:bg-zinc-900">
-                        <img src="./avatar.jpg" alt="avatar" />
+                        <img src={`${import.meta.env.BASE_URL}avatar.jpg`} alt="avatar" />
                     </div>
                     <div className="inline-flex gap-4 ">
                          <a 
@@ -17,7 +17,7 @@ export default function About(){
                         rel="noopener noreferrer"
                         className="w-10"
                         >
-                        <img src="./LinkedIn.png" alt="Linkedin" />
+                        <img src={`${import.meta.env.BASE_URL}LinkedIn.png`} alt="Linkedin" />
                         </a>
                         <a 
                         href="https://github.com/Chao-Meng" 
@@ -25,7 +25,7 @@ export default function About(){
                         rel="noopener noreferrer"
                         className="w-10"
                         >
-                        <img src="./github.svg.png" alt="Github" />
+                        <img src={`${import.meta.env.BASE_URL}github.svg.png`}alt="Github" />
                         </a>
 
                         

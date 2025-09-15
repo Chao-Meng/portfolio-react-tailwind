@@ -38,7 +38,7 @@ export default function Hero() {
           "
         >
           <img
-            src="/Athena_blur.jpg"       
+            src={`${import.meta.env.BASE_URL}Athena_blur.jpg`}
             alt="Athena portrait"
             className="
               h-full w-full object-cover object-top
