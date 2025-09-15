@@ -10,7 +10,7 @@ export default function Hero() {
           Hey There,<br />I’m Athena
         </h1>
         <p className="text-zinc-600 dark:text-zinc-300 max-w-prose">
-          I design & build websites, and I love what I do.
+          I build software and data-driven solutions, bridging development skills with analytical thinking, and I love what I do.
         </p>
         <div className="flex gap-3">
           <a
