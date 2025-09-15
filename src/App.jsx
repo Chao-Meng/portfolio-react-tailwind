@@ -27,7 +27,7 @@ export default function App() {
   const setDark = (nextBool) => setTheme(nextBool ? "dark" : "light");
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={import.meta.env.BASE_URL}>
     
     {/* dark is the same with upon dark in useEffect */}
       <main className="min-h-screen mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-10
