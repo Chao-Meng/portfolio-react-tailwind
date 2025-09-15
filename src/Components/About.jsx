@@ -59,11 +59,11 @@ export default function About(){
 
                         <div className="space-y-6">
                             <p className="text-1xl/tight md:text-2xl/tight font-bold">MEng, Electrical & Computer Engineering </p>
-                            
+                            <p>GPA:4.22/4.3</p>
                         </div>
                         <div className="text-left space-y-4">
                             <p className="text-1xl/tight md:text-2xl/tight font-bold">Ontario Tech University</p>
-                            <p>GPA:4.22/4.3</p>
+                            
                             <div className="list-disc max-w-prose">
                                 <li>Foundation of Software Engineering</li>
                                 <li>Software Testing and QA </li>
