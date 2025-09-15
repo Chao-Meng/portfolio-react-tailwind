@@ -64,7 +64,7 @@ export default function About(){
                         <div className="text-left space-y-4">
                             <p className="text-1xl/tight md:text-2xl/tight font-bold">Ontario Tech University</p>
                             
-                            <div className="list-disc max-w-prose">
+                            <div className="list-disc max-w-prose pl-4">
                                 <li>Foundation of Software Engineering</li>
                                 <li>Software Testing and QA </li>
                                 <li>Software Security and Dependability</li>
