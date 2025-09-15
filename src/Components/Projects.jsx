@@ -18,6 +18,20 @@ export default function Projects(){
                 <h3 className="mt-2 text-lg font-semibold dark:text-zinc-600">Energy Monitor Platform</h3>
                 <p className="text-sm text-gray-600">Web Application</p>
             </div>
+            <div className="rounded-xl shadow-md w-[40%] shrink-0 bg-white p-4 ">
+                <div className="h-60">
+                    <img className="w-full h-full object-cover object-center" src="./optimization.png" alt="optimization" />
+                </div>
+                <h3 className="mt-2 text-lg font-semibold dark:text-zinc-600">IoT Sensor Placement Simulation </h3>
+                <p className="text-sm text-gray-600">Optimization Simulation-Python</p>
+            </div>
+            <div className="rounded-xl shadow-md w-[40%] shrink-0 bg-white p-4 ">
+                <div className="h-60">
+                    <img className="w-full h-full object-cover object-center" src="./c++.png" alt="c++" />
+                </div>
+                <h3 className="mt-2 text-lg font-semibold dark:text-zinc-600">C++ In-Vehicle Infotainment (IVI) System Simulation </h3>
+                <p className="text-sm text-gray-600">C++ OOP Project</p>
+            </div>
             <div className="rounded-xl shadow-md w-[40%] shrink-0 bg-white p-4">
                 <div className="h-60">
                     <img className="w-full h-full object-cover object-center" src="./coffee-shop.png" alt="" />
