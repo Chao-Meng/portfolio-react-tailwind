@@ -20,7 +20,7 @@ export default function Experience(){
                 </div>
                 <div className="text-left space-y-4">
                     <p className="text-1xl/tight md:text-2xl/tight font-bold">Donor Bridge</p>
-                    <ul className="list-disc max-w-prose">
+                    <ul className="list-disc max-w-prose pl-4">
                         <li>Spearheaded front-end development using the React framework, efficiently building reusable UI components with its
                             component-based features, speeding up the development process, and ensuring code maintainability.
                         </li>
@@ -54,7 +54,7 @@ export default function Experience(){
                 </div>
                 <div className="text-left space-y-4">
                     <p className="text-1xl/tight md:text-2xl/tight font-bold">China Energy Engineering Group (CEEC)</p>
-                    <ul className="list-disc max-w-prose">
+                    <ul className="list-disc max-w-prose pl-4">
                         <li>Led a technical team in diagnosing and resolving issues on large-scale engineering projects.</li>
                         <li>Collaborated with cross-functional stakeholders to define scope, analyze root causes, and implement solutions.</li>
                         <li>Documented troubleshooting processes and established standardized guidelines.</li>
@@ -78,7 +78,7 @@ export default function Experience(){
                 </div>
                 <div className="text-left space-y-4">
                     <p className="text-1xl/tight md:text-2xl/tight font-bold">Beijing Hongye Technology</p>
-                    <ul className="list-disc max-w-prose">
+                    <ul className="list-disc max-w-prose pl-4">
                         <li>Delivered customer-facing technical support via phone, email, and on-site troubleshooting.  </li>
                         <li>Diagnosed and resolved software, hardware, and networking issues, reducing downtime.  </li>
                         <li>Conducted system and security checks, ensuring compliance with IT policies.  </li>
