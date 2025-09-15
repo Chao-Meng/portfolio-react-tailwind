@@ -10,6 +10,7 @@ export default function Navbar({ dark, setDark }) {
         <div className="flex gap-6">
           <NavLink to="/" end className={({isActive}) => isActive ? "text-teal-600" : "hover:text-teal-600"}>Home</NavLink>
           <NavLink to="/experience" className={({isActive}) => isActive ? "text-teal-600" : "hover:text-teal-600"}>Experience</NavLink>
+          <NavLink to="/projects" className={({isActive}) => isActive ? "text-teal-600" : "hover:text-teal-600"}>Projects</NavLink>
           <NavLink to="/about" className={({isActive}) => isActive ? "text-teal-600" : "hover:text-teal-600"}>About</NavLink>
           <NavLink to="/contact" className={({isActive}) => isActive ? "text-teal-600" : "hover:text-teal-600"}>Contact</NavLink>
         </div>

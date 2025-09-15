@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import Navbar from "./Components/Navbar.jsx";
 import Home from "./Components/Home.jsx";
 import Experience from "./Components/Experience.jsx";
+import Projects from "./Components/Projects.jsx";
 import About from "./Components/About.jsx";
 import "./App.css";
 
@@ -37,6 +38,7 @@ export default function App() {
         <Routes> 
           <Route path="/" element={<Home />}></Route>
           <Route path="/experience" element={<Experience />}></Route>
+          <Route path="/projects" element={<Projects />}></Route>
           <Route path="/about" element={<About />} /> 
         </Routes>
 

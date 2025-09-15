@@ -37,7 +37,7 @@ export default function Hero() {
           "
         >
           <img
-            src="/avatar.png"       
+            src="/Athena_blur.jpg"       
             alt="Athena portrait"
             className="
               h-full w-full object-cover object-top
